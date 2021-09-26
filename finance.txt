@@ -1,0 +1,31 @@
+> Finance:
+    + receive payments
+        + customers
+        + customer pays
+        + account
+        JSON---> 
+        {
+            "name":"Alex",
+            "amount":20000,
+            "insuranceType":"Car"
+        }
+    + disburse
+        + claims
+        + customer anaclaim
+        + claims approve
+        + finance disburses
+
+    + domain -> specify things that are saveable
+    + repository  -> kutusaidia kusave vitu kwa db
+    + service -> logic
+    + rest -> 
+        + www.facebook.com/friends
+        + endpoints -> url yenye tunatuma request
+
+> Claims
+    + receive claims
+
+    + approve claims
+
+    + forward to finance
+        - disburse
